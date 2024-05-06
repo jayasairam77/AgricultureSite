@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+</head>
+
+<body>
+    <div class="row">
+            <div id="container1" class="container-1 col-4">
+                <div class="c1-images d-flex flex-row justify-content-between">
+                    <img class="c1-image" src="Images/ICAR-logo.png" alt="icar - logo">
+                    <img class="c1-image" src="Images/CRIDA-logo.png" alt="crida - logo">
+                </div>
+                <div class="d-flex flex-row">
+                    <img class="c1-image" src="Images/state_emblem_of_india.png" alt="emblem of india">
+                    <p class="c1-heading ml-3">Department of Agriculture & Cooperation Ministry of Agriculture & Farmers Welfare Government of India</p>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <img class="c1-image" src="Images/soil_health_card.png" alt="soil health card">
+                    <ol class="farmer-details">
+                        <li>
+                            <label class="soil-card-num">భూమి ఆరోగ్య కార్డు సంఖ్య</label>
+                            <p id="siolCardNumValue" class="soil-card-num-value"></p>
+                        </li>
+                        <li>
+                            <label class="card-valid-time">కాల వ్యావది</label>
+                            <p id="cardValidTime" class="soil-card-num-value"></p>
+                        </li>
+                    </ol>                    
+                </div>
+                <div class="c1-footer">
+                    <p>కేంద్రీయ మెట్ట వ్యవసాయ పరిశోధనా సంస్థ, సైదాబాద్ (పోస్ట్), హైదరాబాద్ - 500059, తెలంగాణ</p>
+                </div>
+            </div>            
+            <div class="col-8">
+                <table class="recTable" border="1">
+                    <tr>
+                        <th colspan="3">soil health card</th>
+                        <th rowspan="2" colspan="2">Laboratory Name</th>
+                        <th rowspan="2" colspan="3">National soil research institute</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3">farmer details</td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td colspan="2"></td>
+                        <td colspan="5" rowspan="2">soil text result</td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td colspan="2"></td>
+                        <td rowspan="2">s.no</td>
+                        <td rowspan="2">symptoms</td>
+                        <td rowspan="2">test result values</td>
+                        <td rowspan="2">pramanam</td>
+                        <td rowspan="2">group</td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td colspan="2"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td colspan="2"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td colspan="2"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td colspan="2"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">soil sample details</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td colspan="2"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td colspan="2"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td colspan="2"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td colspan="2"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td colspan="2"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td colspan="2"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-4">
+                <table class="recTable" border="1">
+                    <tr>
+                        <th colspan="3">
+                            suggested pestisides.
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>s.no</td>
+                        <td>product</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            normal advises
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>international year of soils 2015</td>
+                        <td></td>
+                        <td>healthy soils for a healthy life</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-8">
+                <table class="recTable" border="1">
+                    <tr>
+                        <th colspan="5">
+                            eruvulu
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>s.no</td>
+                        <td>crop</td>
+                        <td>crop harvested</td>
+                        <td> earuvulu combination - 1</td>
+                        <td>earuvulu combination - 2</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+</body>
+
+</html>
